@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h3>Your IP: {{ userIp }} <button class="btn" attr-ip="{{ userIp }}">Get IP info</button> </h3>
+    <div class="hidden">
+        City: <span class="city"></span><br>
+        Country: <span class="country"></span>
+    </div>
+
+{% endblock %}
