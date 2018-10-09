@@ -7,7 +7,7 @@ use ipinfo\ipinfo\IPinfo;
 class IpLocationProvider {
 
     /**
-     * @var string
+     * @var IPinfo
      */
     private $client;
 
